@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 # Assuming your dataframe is named 'df'
 # Replace 'df' with the actual name of your dataframe
-df = pd.read_csv('trials/mal_puesto_01_cami_09_07.csv')
+df = pd.read_csv(r'trials\ambiente_cami_12_07.csv')
 
 # Extracting the data from the dataframe
 # Convert time strings to datetime objects

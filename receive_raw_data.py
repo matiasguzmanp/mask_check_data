@@ -34,7 +34,7 @@ try:
                     new_row_df = pd.DataFrame([new_row])
                     df = pd.concat([df, new_row_df], ignore_index=True)
                     # Save the DataFrame to a CSV file
-                    df.to_csv('trials/mal_puesto_01_cami_09_07.csv', index=False)
+                    df.to_csv('trials/ambiente_cami_12_07.csv', index=False)
                 except Exception as e:
                     print(f"Error parsing line: {e}")
 except KeyboardInterrupt:
